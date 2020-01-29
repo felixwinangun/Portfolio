@@ -1,0 +1,228 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: teal;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 20px 80px;
+    position: fixed;
+    width: 100vw;
+}
+
+header li {
+    display: inline-block;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+header img {
+    width: 40px;
+    position: relative;
+    top: 8px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header a:hover {
+    font-size: larger;
+}
+
+#main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    /* padding-top: 75px; */
+}
+
+.main-box {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: inherit;
+}
+
+.left-box{
+    background-image: url(../img/profile.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    width: 30vw;
+    height: 80vh;
+}
+
+.right-box {
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    width: 30vw;
+    height: 80vh;
+    padding: 80px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#introduction {
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+#experience {
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+#main-exp {
+    display: flex;
+    justify-content: center;
+}
+
+#left-exp {
+    box-sizing: border-box;
+    border-top: 2px solid #f1f1f1;
+    border-right: 2px solid #f1f1f1;
+    width: 50%;
+    text-align: right;
+    padding: 0 40px;
+}
+
+#right-exp {
+    box-sizing: border-box;
+    border-top: 2px solid #f1f1f1;
+    width: 50%;
+    text-align: left;
+    padding: 0 40px;
+}
+
+.left-exp-content, .right-exp-content {
+    padding: 14px 0 0 0;
+}
+
+#education {
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+#main-edu {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#left-edu {
+    box-sizing: border-box;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    width: 50%;
+    text-align: right;
+    padding: 0 40px;
+}
+
+.left-edu-content, .right-edu-content {
+    padding: 14px 0 0 0;
+}
+
+#right-edu {
+    box-sizing: border-box;
+    border-top: 2px solid white;
+    width: 50%;
+    text-align: left;
+    padding: 0 40px;
+}
+
+#skills {
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+#main-skills {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    border-top: 2px solid #f1f1f1;
+    padding: 40px;
+}
+
+.content-skills {
+    background-color: #f1f1f1;
+    padding: 40px;
+}
+
+#contact {
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+#main-contact {
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#left-contact {
+    width: 50%;
+    text-align: right;
+    padding: 25px;
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+}
+
+#right-contact {
+    width: 50%;
+    text-align: left;
+    padding: 25px;
+    border-top: 2px solid white;
+}
+
+footer {
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 60px;
+}
+
+footer li {
+    display: inline;
+    padding: 0 20px;
+}
+
+#left-footer {
+    width: 50%;
+}
+
+#right-footer {
+    width: 50%;
+}
